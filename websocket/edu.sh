@@ -7,7 +7,7 @@
 
 
 # Getting Proxy Template
-wget -q -O /usr/bin/ws-nontls https://github.com/natxanss/v2ray/websocket/websocket.py
+wget -q -O /usr/bin/ws-nontls https://github.com/natxanss/v2ray/raw/main/websocket/websocket.py
 chmod +x /usr/bin/ws-nontls
 
 # Installing Service
@@ -33,7 +33,7 @@ systemctl enable ws-nontls
 systemctl restart ws-nontls
 
 # Getting Proxy Template
-wget -q -O /usr/bin/ws-ovpn https://github.com/natxanss/v2ray/websocket/ws-ovpn.py
+wget -q -O /usr/bin/ws-ovpn https://github.com/natxanss/v2ray/raw/main/websocket/ws-ovpn.py
 chmod +x /usr/bin/ws-ovpn
 
 # Installing Service
@@ -59,7 +59,7 @@ systemctl enable ws-ovpn
 systemctl restart ws-ovpn
 
 # Getting Proxy Template
-wget -q -O /usr/bin/ws-tls https://github.com/natxanss/v2ray/websocket/ws-tls
+wget -q -O /usr/bin/ws-tls https://github.com/natxanss/v2ray/raw/main/websocket/ws-tls
 chmod +x /usr/bin/ws-tls
 
 # Installing Service
