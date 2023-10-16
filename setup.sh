@@ -9,16 +9,16 @@ if [ "$(systemd-detect-virt)" == "openvz" ]; then
 fi    
 #install v2ray
 rm -f install.sh
-wget https://raw.githubusercontent.com/natxanss/v2ray/main/install.sh && chmod +x install.sh && ./install.sh
+wget https://raw.githubusercontent.com/Hack-peru/v2ray/main/install.sh && chmod +x install.sh && ./install.sh
 #install ssr
 rm -f ssr.sh
-wget https://raw.githubusercontent.com/natxanss/v2ray/main/ssr.sh && chmod +x ssr.sh && ./ssr.sh
+wget https://raw.githubusercontent.com/Hack-peru/v2ray/main/ssr.sh && chmod +x ssr.sh && ./ssr.sh
 #install ssh
 rm -f ssh-vpn.sh
-wget https://raw.githubusercontent.com/natxanss/v2ray/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/Hack-peru/v2ray/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #install ws
 rm -f edu.sh
-wget https://github.com/natxanss/v2ray/raw/main/websocket/edu.sh && chmod +x edu.sh && ./edu.sh
+wget https://github.com/Hack-peru/v2ray/raw/main/websocket/edu.sh && chmod +x edu.sh && ./edu.sh
 
 rm -f ssh-vpn.sh
 rm -f ssr.sh
