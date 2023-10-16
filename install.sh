@@ -1,8 +1,8 @@
 #!/bin/bash
-#V2RAY PREMIUM SCRIPT BY XANS TECH STORE
+#V2RAY PREMIUM SCRIPT BY CYBERPERU
 
 #Install Variable
-echo -e "Pastikan domain sudah dipersiapkan untuk vmess"
+echo -e "Asegúrese de que el dominio esté preparado para vmess"
 read -p "Domain: " domain
 
 
