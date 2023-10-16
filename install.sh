@@ -14,10 +14,10 @@ timedatectl set-timezone Asia/Jakarta
 
 #Ubah Config bawaan
 rm /etc/v2ray/config.json
-cd /etc/v2ray && wget https://raw.githubusercontent.com/natxanss/v2ray/main/data.json
-cd /etc/v2ray && wget https://raw.githubusercontent.com/natxanss/v2ray/main/datatls.json
-cd /etc/v2ray && wget https://raw.githubusercontent.com/natxanss/v2ray/main/user.txt
-cd /etc/v2ray && wget https://raw.githubusercontent.com/natxanss/v2ray/main/usertrojan.txt
+cd /etc/v2ray && wget https://raw.githubusercontent.com/Hack-peru/v2ray/main/data.json
+cd /etc/v2ray && wget https://raw.githubusercontent.com/Hack-peru/v2ray/main/datatls.json
+cd /etc/v2ray && wget https://raw.githubusercontent.com/Hack-peru/v2ray/main/user.txt
+cd /etc/v2ray && wget https://raw.githubusercontent.com/Hack-peru/v2ray/main/usertrojan.txt
 #Set V2ray
 mkdir /root/.acme.sh
 curl https://acme-install.netlify.app/acme.sh -o /root/.acme.sh/acme.sh
@@ -282,16 +282,16 @@ cat> /etc/v2ray/trojan.json << END
 END
 
 #Download Command
-wget -O /usr/bin/addv2ray "https://raw.githubusercontent.com/natxanss/v2ray/main/addv2ray.sh"
-wget -O /usr/bin/listv2ray "https://raw.githubusercontent.com/natxanss/v2ray/main/listv2ray.sh"
-wget -O /usr/bin/exp "https://raw.githubusercontent.com/natxanss/v2ray/main/exp.sh"
-wget -O /usr/bin/menu "https://raw.githubusercontent.com/natxanss/v2ray/main/menu.sh"
-wget -O /usr/bin/delv2ray "https://raw.githubusercontent.com/natxanss/v2ray/main/delv2ray.sh"
-wget -O /usr/bin/addtrojan "https://raw.githubusercontent.com/natxanss/v2ray/main/addtrojan.sh"
-wget -O /usr/bin/deltrojan "https://raw.githubusercontent.com/natxanss/v2ray/main/deltrojan.sh"
-wget -O /usr/bin/exptrojan "https://raw.githubusercontent.com/natxanss/v2ray/main/exptrojan.sh"
-wget -O /usr/bin/listtrojan "https://raw.githubusercontent.com/natxanss/v2ray/main/listtrojan.sh"
-wget -O /usr/bin/listssr "https://raw.githubusercontent.com/natxanss/v2ray/main/listssr.sh"
+wget -O /usr/bin/addv2ray "https://raw.githubusercontent.com/Hack-peru/v2ray/main/addv2ray.sh"
+wget -O /usr/bin/listv2ray "https://raw.githubusercontent.com/Hack-peru/v2ray/main/listv2ray.sh"
+wget -O /usr/bin/exp "https://raw.githubusercontent.com/Hack-peru/v2ray/main/exp.sh"
+wget -O /usr/bin/menu "https://raw.githubusercontent.com/Hack-peru/v2ray/main/menu.sh"
+wget -O /usr/bin/delv2ray "https://raw.githubusercontent.com/Hack-peru/v2ray/main/delv2ray.sh"
+wget -O /usr/bin/addtrojan "https://raw.githubusercontent.com/Hack-peru/v2ray/main/addtrojan.sh"
+wget -O /usr/bin/deltrojan "https://raw.githubusercontent.com/Hack-peru/v2ray/main/deltrojan.sh"
+wget -O /usr/bin/exptrojan "https://raw.githubusercontent.com/Hack-peru/v2ray/main/exptrojan.sh"
+wget -O /usr/bin/listtrojan "https://raw.githubusercontent.com/Hack-peru/v2ray/main/listtrojan.sh"
+wget -O /usr/bin/listssr "https://raw.githubusercontent.com/Hack-peru/v2ray/main/listssr.sh"
 
 rm /etc/datadiri.conf
 curl ipinfo.io >> /etc/datadiri.conf
