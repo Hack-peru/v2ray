@@ -8,7 +8,7 @@ loc="$(grep -oP '(?<="loc": ")[^"]*' /etc/datadiri.conf)"
 timezone="$(grep -oP '(?<="timezone": ")[^"]*' /etc/datadiri.conf)"
 clear
 neofetch
-echo -e ">>_+============= Xans Tech Premium Script ==============+_<<"
+echo -e ">>_+============= CYBERPERU   Premium Script ==============+_<<"
 echo -e "[-]IP/Host        : $ip"
 echo -e "[-]ISP            : $isp"
 echo -e "[-]City           : $city"
@@ -72,7 +72,7 @@ echo -e "[43][about]       : Menampilkan informasi script"
 echo -e "[44][reboot]      : Memulai Ulang VPS"
 echo -e "[0][exit]         : Exit Menu"
 echo -e "\n"
-read -p "Pilih Menu No [ 0 - 44 ] : " input
+read -p "Digite  Menu No [ 0 - 44 ] : " input
 
 if [ $input == 0 ]
 then
@@ -210,6 +210,6 @@ elif [ $input == 44 ]
 then
 	reboot
 else
-  echo -e "Maaf menu yang dituju salah, silahkan ulangi"
+  echo -e "Lo sentimos, el menú que estás buscando no es correcto, inténtalo de nuevo"
   menu
 fi
