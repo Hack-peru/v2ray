@@ -13,4 +13,4 @@ do
         fi
 done < /etc/passwd
 JUMLAH="$(awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd | wc -l)"
-echo -e "Premium Script Make by XansTech"
+echo -e "Premium Script Make by Cyberperu"
