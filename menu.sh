@@ -10,7 +10,7 @@ clear
 neofetch
 echo -e ">>_+============= CYBERPERU   Premium Script ==============+_<<"
 echo -e "[-]IP/Host        : $ip"
-echo -e "[-]IP/Host        : $host"
+echo -e "[-]Host           : $host"
 echo -e "[-]ISP            : $isp"
 echo -e "[-]City           : $city"
 echo -e "[-]Region         : $region"
